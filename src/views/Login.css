@@ -4,12 +4,13 @@
   margin: 0 auto;
   display: grid;
   place-content: center;
+  font-size: 2rem;
 }
 .login__title{
   margin-bottom: 1.5rem;
   font-weight: bold;
   text-align: center;
-  font-size: 1.6rem;
+  font-size: 1.8rem;
 }
 .login__form{
   display: flex;
@@ -21,13 +22,21 @@
   border-radius: 1rem;
 }
 .form__input{
+  border: none;
+  font-size: 1rem;
   border-bottom: 2px solid #64748b;
   background: transparent;
+  color: #fff;
 }
 .form__input:focus{
   outline: none;
 }
 .form__submit{
   background: #0284c7;
+  font-size: 1rem;
+  border: none;
   border-radius: .5rem;
+  font-weight: 500;
+  color: #fff;
+  padding: .25rem 0;
 }
