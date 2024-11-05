@@ -1,11 +1,11 @@
 import './App.css'
 import Login from './views/Login.jsx'
-import Register from './views/Register.jsx'
+import Signin from './views/Signin.jsx'
 
 function App() {
   return (
     <main className='main'>
-      <Register/>
+      <Login/>
     </main>
   )
 }
