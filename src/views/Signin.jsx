@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import './Login.css'
 function Signin() {
   return (
@@ -8,6 +9,7 @@ function Signin() {
         <input className="form__input" id="email" name="email" placeholder="email" type="email"/>
         <input className="form__input" id="password" name="password" placeholder="password" type="password"/>
         <button type="submit" className="form__submit">Sign in</button>
+        <p className='form__footer'>Already have an account?<Link className='footer__link' to='/'>Login</Link></p>
       </form>
     </section>
   )
